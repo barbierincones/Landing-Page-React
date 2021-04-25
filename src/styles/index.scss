@@ -1,13 +1,33 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+//Margen superior del Jumbotron
+.jumbotron-container{
+    margin-top: 5rem;
+}
+//Tamaño del Título del Jumbotron
+.jumbotron-title{
+    font-size: 3rem;
+}
+//Tamaño del texto que pertenece al cuerpo del Jumbotron
+.jumbotron-text{
+    font-size: 1.1rem;
+}
+//Tamaño del texto del Botón
+.jumbotron-btn-text{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+//Tamaño y color del Footer
+.footer{
+    color: white;
+    font-size: 1.2rem;
+    height: 8rem;
+}
+//Tamaño y alineación del texto del Footer
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    height: 8rem;
+}
